@@ -1,0 +1,19 @@
+.odds {
+    background-color: pink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#d2 {
+    color: blue;
+    font-size: 36px;
+}
+
+.size24 {
+    font-size: 24px;
+}
+
+#d4 {
+    background-color: lightgreen;
+    font-weight: bold;
+}
+
