@@ -1,7 +1,7 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
-  padding: 8px 8px;
+  padding: 8px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -19,18 +19,15 @@
   justify-content: center;
 }
 
-.header li {
-  margin: 0px 8px;
-}
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  padding: 8px;
-  margin: 8px 0px;
-  justify-content: space-between;
+  padding: 0px;
+  margin: 0px;
+  gap: 8px;
 }
 
 a {
