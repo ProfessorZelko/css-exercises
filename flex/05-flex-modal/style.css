@@ -20,9 +20,10 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /*Added code*/
   padding: 16px;
   display: flex;
-  flex-direction: row;
+  gap: 16px;
 }
 
 .icon {
@@ -30,20 +31,25 @@ body {
   font-size: 26px;
   font-weight: 700;
   background: lavender;
-  min-width: 42px;
+  width: 42px;
   height: 42px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 16px;
+  /*Added code*/
+  flex-shrink: 0;
 }
 
 .header { 
+  /*Added code*/
   font-weight: bold;
   font-size: large;
-  
-  padding: 0px 0px 10px 0px;
+  /*padding: 0px 0px 10px 0px;*/
+  /*Added solution code*/
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
 }
 
 .close-button {
@@ -53,10 +59,12 @@ body {
   font-weight: 400;
   font-size: 16px;
   height: 24px;
-  min-width: 24px;
+  width: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
+  /*Added code*/
+  /*min-width: 24px;*/
 }
 
 button {
@@ -68,11 +76,17 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
-  margin: 16px 0px 0px 0px;
+  /*Added code*/
+  /*margin: 16px 0px 0px 0px;*/
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+/*Completely added code*/
+.text {
+  margin-bottom: 18px;
 }
