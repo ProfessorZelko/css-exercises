@@ -68,7 +68,7 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
-  margin: 16px 0px;
+  margin: 16px 0px 0px 0px;
 }
 
 button.cancel {
